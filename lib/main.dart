@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
+import 'package:shop_now/componets/horizontal_list.dart';
 
 void main() => runApp(Index());
 
@@ -10,7 +11,7 @@ class Index extends StatefulWidget {
 
 class _Index extends State<Index> {
   Widget slider = Container(
-    height: 300,
+    height: 200,
     child: Carousel(
       boxFit: BoxFit.cover,
       images: [
@@ -115,7 +116,13 @@ class _Index extends State<Index> {
       ),
       body: ListView(
         children: <Widget>[
-          slider
+          slider,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Categories'),
+          ),
+          HorizontalList(),
+
         ],
       ),
     ));
