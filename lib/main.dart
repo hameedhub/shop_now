@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_pro/carousel_pro.dart';
 import 'package:shop_now/componets/horizontal_list.dart';
+import 'package:shop_now/componets/products.dart';
 
 void main() => runApp(Index());
 
@@ -122,6 +123,15 @@ class _Index extends State<Index> {
             child: Text('Categories'),
           ),
           HorizontalList(),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Recent'),
+          ),
+
+          Container(
+            height: 320,
+            child: Products(),
+          )
 
         ],
       ),

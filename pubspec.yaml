@@ -54,6 +54,15 @@ flutter:
     - images/others.png
     - images/phone.png
     - images/beauty.png
+    - images/products/cell1.jpg
+    - images/products/cell2.jpg
+    - images/products/cell3.png
+    - images/products/dress1.jpg
+    - images/products/dress2.jpg
+    - images/products/dress3.jpg
+    - images/products/food2.jpg
+    - images/products/tv1.jpg
+    - images/products/tv2.jpg
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
