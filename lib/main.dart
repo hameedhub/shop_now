@@ -119,19 +119,20 @@ class _Index extends State<Index> {
         children: <Widget>[
           slider,
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(5.0),
             child: Text('Categories'),
-          ),
-          HorizontalList(),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text('Recent'),
-          ),
+          ),          
+           HorizontalList(),
+           SizedBox(height:5.0),
+          // Padding(
+          //   padding: const EdgeInsets.all(8.0),
+          //   child: Text('Recent'),
+          // ),
 
           Container(
             height: 320,
             child: Products(),
-          )
+          ),
 
         ],
       ),
